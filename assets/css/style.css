@@ -230,5 +230,17 @@ input[type=submit] {
   clear: top;
 }
 
+@media screen and (min-width: 750px) or (min-width: 980px;) {
+  .auth-image {
+    width: 100px;
+  }
+
+
+}
+
+
+
+
+
 }
 
