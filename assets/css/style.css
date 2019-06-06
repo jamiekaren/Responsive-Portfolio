@@ -210,31 +210,19 @@ input[type=submit] {
   border: 0 none;
 }
 
-and (max-width: 900px) and (min-width: 600px), (min-width: 1100px)
-
-
-@media (max-width: 980px){
-  .auth-image {
-  float: top;
-  width: 400px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px; 
-  }
-
+.auth-image {
+  width: 500px;
 }
 
-  @media (min-width: 768px){
+@media screen and (min-width: 980px) {
   .auth-image {
-  float: top;
-  width: 50px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px; 
+    width: 200;
   }
-
-  }
-
-
-
 }
+
+@media screen and (min-width: 768px) {
+  .auth-image {
+    width: 50px;
+  }
+}
+
