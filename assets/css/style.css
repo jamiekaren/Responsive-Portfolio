@@ -217,7 +217,7 @@ input[type=submit] {
 
 @media screen and (min-width: 640px) {
   .auth-image {
-    width: 50px;
+    width: 200px;
   }
  #logo {
    width: 100%;
@@ -225,6 +225,10 @@ input[type=submit] {
  nav {
    text-align: center;
  }
+
+#maincontent {
+  clear: top;
+}
 
 }
 
