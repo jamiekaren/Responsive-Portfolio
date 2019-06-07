@@ -80,7 +80,6 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
-  width: 100%;
 }
 
 nav a {
@@ -169,7 +168,13 @@ h3, h2 {
   border-bottom: 0;
 }
 
-
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
 
 /* contact page */
 
@@ -211,36 +216,26 @@ input[type=submit] {
   border: 0 none;
 }
 
-.auth-image {
-  width: 500px;
+@media screen and (max-width: 980px) {
+  .auth-image {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .auth-image {
+    width: 100px;
+  }
 }
 
 @media screen and (min-width: 640px) {
   .auth-image {
     width: 200px;
   }
- #logo {
-   width: 100%;
- }
- nav {
-   text-align: center;
- }
-
-#maincontent {
-  clear: top;
-}
-
-@media screen and (min-width: 750px) or (min-width: 980px;) {
-  .auth-image {
-    width: 100px;
+  nav {
+    text-align: center;
   }
-
-
+  #logo {
+    width: 100%;
+  }
 }
-
-
-
-
-
-}
-
